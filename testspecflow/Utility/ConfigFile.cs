@@ -12,9 +12,9 @@ namespace testspecflow.Utility
         
         public static IWebDriver driver { set; get; }
 
-        public static String username { set; get; }
+       public static String username { set; get; }
 
-        public static String password { set; get; }
+       public static String password { set; get; }
 
         public static String MyPropertyPageTitle { set; get; }
 

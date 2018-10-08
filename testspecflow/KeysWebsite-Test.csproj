@@ -136,6 +136,26 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ListRentals.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\M Landlords.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>M Landlords.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\MyRentals.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyRentals.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\MyRentalSendRequest.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyRentalSendRequest.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\MyRequests.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyRequests.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\OwnersDashboard.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -146,7 +166,9 @@
     <Compile Include="Features\Pages\DashboardPage.cs" />
     <Compile Include="Features\Pages\MyFinanceDetailsPage.cs" />
     <Compile Include="Features\Pages\ListATental.cs" />
+    <Compile Include="Features\Pages\MyRentalsPage.cs" />
     <Compile Include="Features\Pages\MyTenantDetailsPage.cs" />
+    <Compile Include="Features\Pages\SendRequestPage.cs" />
     <Compile Include="Features\Pages\TenantDetailsPage.cs" />
     <Compile Include="Features\Pages\FinancialDetailsPage.cs" />
     <Compile Include="Features\Pages\LoginPage.cs" />
@@ -157,6 +179,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Steps\AddPropertyStep.cs" />
     <Compile Include="Steps\DeletePropertySteps.cs" />
+    <Compile Include="Steps\LandlordsRequestPageSteps.cs" />
+    <Compile Include="Steps\MyRentalsSteps.cs" />
+    <Compile Include="Steps\MyRentalsSendRequestPageSteps.cs" />
+    <Compile Include="Steps\MyRequestsSteps.cs" />
     <Compile Include="Utility\BrowserFactory.cs" />
     <Compile Include="Utility\ConfigFile.cs" />
     <Compile Include="Utility\getscreenshot.cs" />
@@ -177,6 +203,22 @@
     <None Include="Features\ListRentals.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>ListRentals.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\M Landlords.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>M Landlords.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\MyRentals.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MyRentals.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\MyRentalSendRequest.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MyRentalSendRequest.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\MyRequests.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MyRequests.feature.cs</LastGenOutput>
     </None>
     <None Include="Features\OwnersDashboard.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

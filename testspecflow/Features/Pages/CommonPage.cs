@@ -35,8 +35,11 @@ namespace testspecflow.Features.Pages
         [FindsBy(How = How.XPath, Using = "//a[contains(@class, 'item-link item selected')]")]
         public IWebElement btnDashboard;
 
+        [FindsBy(How = How.XPath, Using = "//div[contains(text(),'Tenants')]")]
+        public IWebElement btnTenants;
 
-        
+        [FindsBy(How = How.XPath, Using = "//a[@href ='/Tenants/Home/MyRentals']")]
+        public IWebElement btnMyRentals;
 
         public void clickOwners()
         {
@@ -71,6 +74,33 @@ namespace testspecflow.Features.Pages
 
 
         }
+
+
+        public void clickTenants()
+        {
+
+            if (btnSkip.Displayed)
+            {
+                btnSkip.Click();
+            }
+
+
+            System.Threading.Thread.Sleep(5000);
+            btnTenants.Click();
+           
+
+        }
+
+        public void clickMyRentals()
+        {
+
+            System.Threading.Thread.Sleep(5000);
+            btnMyRentals.Click();
+
+
+        }
+
+
 
 
     }

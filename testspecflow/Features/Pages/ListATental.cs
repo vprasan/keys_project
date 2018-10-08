@@ -28,9 +28,6 @@ namespace com.keyswebsite_test.Pages
 
 
 
-        // [FindsBy(How = How.XPath, Using = "//div[@class='text']")]
-       // [FindsBy(How = How.XPath, Using = "//div[@class='item active selected' and @data-value='13294']")]        
-        //public IWebElement ddwproperty;
 
         [FindsBy(How = How.XPath, Using = "//*[@id='main-content']/div/form/fieldset/div[2]/div/input[2]")]
         public IWebElement ddwproperty;
@@ -86,13 +83,6 @@ namespace com.keyswebsite_test.Pages
         //Locator for pet allowed
         [FindsBy(How = How.XPath, Using = "//select[@data-bind=\"options: PetsAllowedOption, optionsText: 'Choice',optionsValue : 'Choice', value : PetsAllowed\"]")]
         public IWebElement txtpetsallowed;
-
-
-        //select[@data-bind="\options: PetsAllowedOption, optionsText: 'Choice',optionsValue : 'Choice', value : PetsAllowed\"]
-
-        //Locator for pet allowed "No"
-        //[FindsBy(How = How.XPath, Using = "//select[@data-bind=\"options: PetsAllowedOption, optionsText: 'Choice', optionsValue: 'Choice', value: PetsAllowed\"]//option[@value='No']")]
-        //public IWebElement txtpetsallowedNo;
 
 
 
